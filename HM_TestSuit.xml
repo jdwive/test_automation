@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="H&M Test Sanity Suit">
+  <parameter name="deviceName" value="43004985b682c0e5"/>
+    <classes>
+      <class name="HM_Test.SearchTest"/>
+      <methods>
+      <include name="testNoResultMessage"/>
+      
+	</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
